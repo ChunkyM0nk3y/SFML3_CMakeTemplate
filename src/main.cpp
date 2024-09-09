@@ -4,7 +4,7 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow window(VideoMode(200, 200), "WarfareZ");
+	RenderWindow window(VideoMode(200, 200), "SFML Works!\n");
 	Clock deltaClock;
 
 	bool kresleni = true;
