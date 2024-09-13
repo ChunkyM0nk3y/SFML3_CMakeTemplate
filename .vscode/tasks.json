@@ -18,15 +18,6 @@
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "label": "build_and_run",
-            "type": "shell",
-            "dependsOn": ["build", "run"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
         }
     ]
 }
