@@ -1,7 +1,7 @@
 CXX = g++
 TARGET = program
 
-CXXFLAGS = -std=c++11 -g -O2 -Wall -Wno-reorder
+CXXFLAGS = -std=c++20 -g -O2 -Wall -Wno-reorder
 CPPFLAGS = -I /usr/include
 LDFLAGS = -L /usr/lib
 LIBS = -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
