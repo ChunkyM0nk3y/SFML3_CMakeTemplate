@@ -4,7 +4,7 @@
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(conf::window_size.x, conf::window_size.y), "Space");
+	sf::RenderWindow window(sf::VideoMode({conf::window_size.x, conf::window_size.y}), "Space");
 	window.setFramerateLimit(conf::max_framerate);
 	
 	sf::Clock deltaClock;
